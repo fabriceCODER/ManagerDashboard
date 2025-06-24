@@ -1,73 +1,109 @@
-# Welcome to your Lovable project
+# 📦 Stock Management Dashboard
 
-## Project info
+A modern, responsive, and professional **Stock Management Dashboard** built with **React**, **TypeScript**, and **Tailwind CSS**. This dashboard provides a sleek interface for tracking inventory, managing stock levels, generating reports, and overseeing warehouse operations.
 
-**URL**: https://lovable.dev/projects/8c0a2e13-8b6d-4540-80d2-425e6bbd8799
+![License](https://img.shields.io/badge/license-MIT-blue.svg)
+![React](https://img.shields.io/badge/React-18.2-blue)
+![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue)
+![Tailwind CSS](https://img.shields.io/badge/TailwindCSS-3.3-38B2AC)
 
-## How can I edit this code?
+---
 
-There are several ways of editing your application.
+## 🚀 Features
 
-**Use Lovable**
+* 📊 **Dashboard Overview**: Real-time statistics on stock, orders, and alerts.
+* 📦 **Inventory Management**: Add, update, delete, and view stock items with ease.
+* 🧾 **Sales & Purchase Tracking**: Manage suppliers, customers, and transactions.
+* 📈 **Reports**: Generate exportable reports (PDF/CSV) for inventory and orders.
+* 🔔 **Notifications**: Low-stock alerts and restocking reminders.
+* 🌗 **Dark Mode**: Switch between light and dark themes seamlessly.
+* 🔍 **Advanced Filtering & Search**: Quickly locate products or data with smart filters.
+* 👥 **User Roles (UI only)**: Placeholder for role-based access (Admin, Manager, Viewer).
+* 🧱 **Reusable Components**: Clean modular UI with shared components using `shadcn/ui`.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/8c0a2e13-8b6d-4540-80d2-425e6bbd8799) and start prompting.
+---
 
-Changes made via Lovable will be committed automatically to this repo.
+## 📁 Folder Structure
 
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+```
+src/
+🔹 assets/            # Static files (images, icons)
+🔹 components/        # Reusable UI components
+🔹 pages/             # Page-level components (Dashboard, Inventory, Reports, etc.)
+🔹 hooks/             # Custom React hooks
+🔹 utils/             # Utility functions
+🔹 styles/            # Global styles (Tailwind, themes)
+🔹 App.tsx            # Root component
+🔹 main.tsx           # Entry point
 ```
 
-**Edit a file directly in GitHub**
+---
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## 🚰 Tech Stack
 
-**Use GitHub Codespaces**
+* **Frontend**: React, TypeScript, Vite
+* **Styling**: Tailwind CSS, shadcn/ui
+* **Routing**: React Router
+* **Icons**: Lucide / HeroIcons / React-Icons
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+---
 
-## What technologies are used for this project?
+## 🧪 Setup Instructions
 
-This project is built with:
+1. **Clone the repo**
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+   ```bash
+   git clone https://github.com/fabriceCODER/ManagerDashboard.git
+   cd stock-management-dashboard
+   ```
 
-## How can I deploy this project?
+2. **Install dependencies**
 
-Simply open [Lovable](https://lovable.dev/projects/8c0a2e13-8b6d-4540-80d2-425e6bbd8799) and click on Share -> Publish.
+   ```bash
+   npm install
+   ```
 
-## Can I connect a custom domain to my Lovable project?
+3. **Start the development server**
 
-Yes, you can!
+   ```bash
+   npm run dev
+   ```
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+4. **Build for production**
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+   ```bash
+   npm run build
+   ```
+
+---
+
+## 📸 Screenshots
+
+> Coming soon – or drop your UI previews here!
+
+---
+
+## 📄 License
+
+This project is licensed under the **MIT License**.
+
+---
+
+## ✨ Future Enhancements
+
+* Role-based authentication
+* Backend integration with Node.js or Django
+* Charts and analytics dashboard
+* Mobile responsive optimizations
+
+---
+
+## 🙌 Contributing
+
+Pull requests and stars are welcome! For major changes, please open an issue first to discuss what you would like to change.
+
+---
+
+## 👨‍💻 Author
+
+**Fabrice Ishimwe
